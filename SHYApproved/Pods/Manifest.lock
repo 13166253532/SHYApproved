@@ -14,19 +14,27 @@ PODS:
   - AFNetworking/Serialization (3.1.0)
   - AFNetworking/UIKit (3.1.0):
     - AFNetworking/NSURLSession
+  - FMDB (2.6.2):
+    - FMDB/standard (= 2.6.2)
+  - FMDB/standard (2.6.2)
   - IQKeyboardManager (4.0.9)
   - JSONModel (1.7.0)
+  - LKDBHelper (2.4.1):
+    - FMDB
 
 DEPENDENCIES:
   - AFNetworking (~> 3.0)
   - IQKeyboardManager (~> 4.0.9)
   - JSONModel
+  - LKDBHelper
 
 SPEC CHECKSUMS:
   AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
+  FMDB: 854a0341b4726e53276f2a8996f06f1b80f9259a
   IQKeyboardManager: 322c7405df3eb5f7e50dede32ea937bf3d4364e0
   JSONModel: 840bc0fcffb24b8454d2c026bf26fea454b8e98d
+  LKDBHelper: 531581fa6a7d0f14236cc028ce0d277bca73436a
 
-PODFILE CHECKSUM: d72b72b52ffc87c63db288fea1fa080ffd781724
+PODFILE CHECKSUM: 92fac78d83b8796e27e314c3fe6605469cf26a3e
 
 COCOAPODS: 1.3.1
