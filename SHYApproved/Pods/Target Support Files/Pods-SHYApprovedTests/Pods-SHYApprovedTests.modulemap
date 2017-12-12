@@ -1,0 +1,6 @@
+framework module Pods_SHYApprovedTests {
+  umbrella header "Pods-SHYApprovedTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
