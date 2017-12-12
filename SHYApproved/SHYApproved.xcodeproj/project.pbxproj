@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		173E06FD1FDFD92400101F7E /* CompanyTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 173E06FC1FDFD92400101F7E /* CompanyTableViewCell.xib */; };
+		173E06FE1FDFD9B200101F7E /* CompanyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17FDBED51FDFCF5A00A13252 /* CompanyTableViewCell.swift */; };
 		17FDBDA41FDFB27400A13252 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17FDBDA31FDFB27400A13252 /* AppDelegate.swift */; };
 		17FDBDA61FDFB27400A13252 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17FDBDA51FDFB27400A13252 /* ViewController.swift */; };
 		17FDBDA91FDFB27400A13252 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17FDBDA71FDFB27400A13252 /* Main.storyboard */; };
@@ -65,6 +67,13 @@
 		17FDBECD1FDFCAA700A13252 /* HTMessageInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 17FDBE131FDFC40300A13252 /* HTMessageInfo.m */; };
 		17FDBECE1FDFCABA00A13252 /* HTCountryListInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 17FDBE111FDFC40300A13252 /* HTCountryListInfo.m */; };
 		17FDBECF1FDFCAD300A13252 /* EPHistorySearchInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 17FDBE161FDFC40300A13252 /* EPHistorySearchInfo.m */; };
+		17FDBEDA1FDFCF7300A13252 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17FDBED71FDFCF5A00A13252 /* LoginViewController.swift */; };
+		17FDBEE01FDFD04400A13252 /* TimeContrastController.m in Sources */ = {isa = PBXBuildFile; fileRef = 17FDBEDE1FDFD02100A13252 /* TimeContrastController.m */; };
+		17FDBEE11FDFD04900A13252 /* TimersController.m in Sources */ = {isa = PBXBuildFile; fileRef = 17FDBEDF1FDFD02100A13252 /* TimersController.m */; };
+		17FDBEE31FDFD6A300A13252 /* LoginViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17FDBEE21FDFD6A300A13252 /* LoginViewController.storyboard */; };
+		17FDBEE51FDFD6F600A13252 /* LoginViewController+Company.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17FDBEE41FDFD6F600A13252 /* LoginViewController+Company.swift */; };
+		17FDBEE71FDFD71E00A13252 /* LoginViewController+Department.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17FDBEE61FDFD71E00A13252 /* LoginViewController+Department.swift */; };
+		17FDBEE91FDFD75800A13252 /* LoginViewController+http.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17FDBEE81FDFD75800A13252 /* LoginViewController+http.swift */; };
 		5F25EC5DA698CF2E2B3D67D1 /* Pods_SHYApprovedUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BE3D70036AC44202A1AB163 /* Pods_SHYApprovedUITests.framework */; };
 		76D8739D6F8D6984963837CD /* Pods_SHYApprovedTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34FE95D368485B9B7BCE3405 /* Pods_SHYApprovedTests.framework */; };
 		C642C7140DAA17E94FF7DB4E /* Pods_SHYApproved.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42B6AB792B3EC56F9D0DAFB0 /* Pods_SHYApproved.framework */; };
@@ -88,6 +97,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		173E06FC1FDFD92400101F7E /* CompanyTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CompanyTableViewCell.xib; sourceTree = "<group>"; };
 		17FDBDA01FDFB27400A13252 /* SHYApproved.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SHYApproved.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		17FDBDA31FDFB27400A13252 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		17FDBDA51FDFB27400A13252 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -269,6 +279,16 @@
 		17FDBE981FDFC40400A13252 /* GMGridViewLayoutStrategies.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GMGridViewLayoutStrategies.h; sourceTree = "<group>"; };
 		17FDBE9A1FDFC40400A13252 /* SMAlertView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SMAlertView.h; sourceTree = "<group>"; };
 		17FDBE9B1FDFC40400A13252 /* SMAlertView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SMAlertView.m; sourceTree = "<group>"; };
+		17FDBED51FDFCF5A00A13252 /* CompanyTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompanyTableViewCell.swift; sourceTree = "<group>"; };
+		17FDBED71FDFCF5A00A13252 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		17FDBEDC1FDFD02100A13252 /* TimeContrastController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TimeContrastController.h; sourceTree = "<group>"; };
+		17FDBEDD1FDFD02100A13252 /* TimersController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TimersController.h; sourceTree = "<group>"; };
+		17FDBEDE1FDFD02100A13252 /* TimeContrastController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TimeContrastController.m; sourceTree = "<group>"; };
+		17FDBEDF1FDFD02100A13252 /* TimersController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TimersController.m; sourceTree = "<group>"; };
+		17FDBEE21FDFD6A300A13252 /* LoginViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LoginViewController.storyboard; sourceTree = "<group>"; };
+		17FDBEE41FDFD6F600A13252 /* LoginViewController+Company.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LoginViewController+Company.swift"; sourceTree = "<group>"; };
+		17FDBEE61FDFD71E00A13252 /* LoginViewController+Department.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LoginViewController+Department.swift"; sourceTree = "<group>"; };
+		17FDBEE81FDFD75800A13252 /* LoginViewController+http.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LoginViewController+http.swift"; sourceTree = "<group>"; };
 		34FE95D368485B9B7BCE3405 /* Pods_SHYApprovedTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SHYApprovedTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3BE3D70036AC44202A1AB163 /* Pods_SHYApprovedUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SHYApprovedUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		42B6AB792B3EC56F9D0DAFB0 /* Pods_SHYApproved.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SHYApproved.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -374,6 +394,7 @@
 		17FDBDD61FDFC40300A13252 /* Config */ = {
 			isa = PBXGroup;
 			children = (
+				17FDBEDB1FDFD02100A13252 /* Timers */,
 				17FDBDD71FDFC40300A13252 /* LocalSetting */,
 				17FDBDDB1FDFC40300A13252 /* Tools */,
 				17FDBDEF1FDFC40300A13252 /* Extension */,
@@ -789,8 +810,42 @@
 		17FDBE9C1FDFC64700A13252 /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
+				17FDBED11FDFCF5A00A13252 /* Login */,
 			);
 			path = ViewController;
+			sourceTree = "<group>";
+		};
+		17FDBED11FDFCF5A00A13252 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				17FDBED41FDFCF5A00A13252 /* Cell */,
+				17FDBED71FDFCF5A00A13252 /* LoginViewController.swift */,
+				17FDBEE41FDFD6F600A13252 /* LoginViewController+Company.swift */,
+				17FDBEE61FDFD71E00A13252 /* LoginViewController+Department.swift */,
+				17FDBEE81FDFD75800A13252 /* LoginViewController+http.swift */,
+				17FDBEE21FDFD6A300A13252 /* LoginViewController.storyboard */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		17FDBED41FDFCF5A00A13252 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				17FDBED51FDFCF5A00A13252 /* CompanyTableViewCell.swift */,
+				173E06FC1FDFD92400101F7E /* CompanyTableViewCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		17FDBEDB1FDFD02100A13252 /* Timers */ = {
+			isa = PBXGroup;
+			children = (
+				17FDBEDC1FDFD02100A13252 /* TimeContrastController.h */,
+				17FDBEDE1FDFD02100A13252 /* TimeContrastController.m */,
+				17FDBEDD1FDFD02100A13252 /* TimersController.h */,
+				17FDBEDF1FDFD02100A13252 /* TimersController.m */,
+			);
+			path = Timers;
 			sourceTree = "<group>";
 		};
 		D036457F190BB6605A9FB703 /* Frameworks */ = {
@@ -934,6 +989,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				17FDBDAE1FDFB27400A13252 /* LaunchScreen.storyboard in Resources */,
+				17FDBEE31FDFD6A300A13252 /* LoginViewController.storyboard in Resources */,
+				173E06FD1FDFD92400101F7E /* CompanyTableViewCell.xib in Resources */,
 				17FDBDAB1FDFB27400A13252 /* Assets.xcassets in Resources */,
 				17FDBDA91FDFB27400A13252 /* Main.storyboard in Resources */,
 			);
@@ -1118,12 +1175,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				173E06FE1FDFD9B200101F7E /* CompanyTableViewCell.swift in Sources */,
+				17FDBEE11FDFD04900A13252 /* TimersController.m in Sources */,
+				17FDBEE01FDFD04400A13252 /* TimeContrastController.m in Sources */,
+				17FDBEDA1FDFCF7300A13252 /* LoginViewController.swift in Sources */,
 				17FDBECF1FDFCAD300A13252 /* EPHistorySearchInfo.m in Sources */,
 				17FDBECE1FDFCABA00A13252 /* HTCountryListInfo.m in Sources */,
 				17FDBECD1FDFCAA700A13252 /* HTMessageInfo.m in Sources */,
+				17FDBEE71FDFD71E00A13252 /* LoginViewController+Department.swift in Sources */,
 				17FDBECC1FDFCA8700A13252 /* HTCitiesListInfo.m in Sources */,
 				17FDBECB1FDFCA7500A13252 /* HTCalendarOrdersInfo.m in Sources */,
 				17FDBECA1FDFC84900A13252 /* UIView+Toast.m in Sources */,
+				17FDBEE51FDFD6F600A13252 /* LoginViewController+Company.swift in Sources */,
 				17FDBEC91FDFC83F00A13252 /* SMToastView.m in Sources */,
 				17FDBEC81FDFC82C00A13252 /* AccountInfo.swift in Sources */,
 				17FDBEC71FDFC82500A13252 /* CompanyListInfoMode.swift in Sources */,
@@ -1131,6 +1194,7 @@
 				17FDBEC51FDFC81400A13252 /* ProjectConfigGroup.m in Sources */,
 				17FDBEC41FDFC80A00A13252 /* FGDBHelper.m in Sources */,
 				17FDBEC31FDFC7ED00A13252 /* SMAlertView.m in Sources */,
+				17FDBEE91FDFD75800A13252 /* LoginViewController+http.swift in Sources */,
 				17FDBEC21FDFC7E600A13252 /* SNHttpBasePostCmd.m in Sources */,
 				17FDBEC11FDFC7DF00A13252 /* DSHttpMessageListCmd.m in Sources */,
 				17FDBEC01FDFC7D900A13252 /* DSHttpMessageListCmd+Response.m in Sources */,
